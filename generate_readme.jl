@@ -42,10 +42,12 @@ main_contributor = [
     Info("rikhuijzer/JuliaTutorialsTemplate"),
     Info("rikhuijzer/PrecompileSignatures.jl"),
     Info(; name="cache-install", repo="rikhuijzer/cache-install", language="Nix", color="blue"),
+    Info("TuringLang/TuringGLM.jl"),
     Info("rikhuijzer/PowerAnalyses.jl"),
     Info("rikhuijzer/Resample.jl"),
     Info("julia-actions/cache"),
     Info("rikhuijzer/Skans.jl"),
+    Info("harryscholes/EffectSizes.jl")
 ]
 
 contributor = [
@@ -58,7 +60,7 @@ contributor = [
 sep = '\n'
 
 text = """
-    ### Main contributor
+    ### Main contributor/Maintainer
 
     $(join(line.(main_contributor), sep))
 

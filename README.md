@@ -1,4 +1,4 @@
-### Main contributor
+### Main contributor/Maintainer
 
 ![Books.jl stars](https://shields.io/github/stars/JuliaBooks/Books.jl)
     [![Books.jl](https://img.shields.io/badge/Books.jl-Julia-blueviolet.svg)](https://github.com/JuliaBooks/Books.jl)
@@ -18,6 +18,9 @@
 ![cache-install stars](https://shields.io/github/stars/rikhuijzer/cache-install)
     [![cache-install](https://img.shields.io/badge/cache_install-Nix-blue.svg)](https://github.com/rikhuijzer/cache-install)
 
+![TuringGLM.jl stars](https://shields.io/github/stars/TuringLang/TuringGLM.jl)
+    [![TuringGLM.jl](https://img.shields.io/badge/TuringGLM.jl-Julia-blueviolet.svg)](https://github.com/TuringLang/TuringGLM.jl)
+
 ![PowerAnalyses.jl stars](https://shields.io/github/stars/rikhuijzer/PowerAnalyses.jl)
     [![PowerAnalyses.jl](https://img.shields.io/badge/PowerAnalyses.jl-Julia-blueviolet.svg)](https://github.com/rikhuijzer/PowerAnalyses.jl)
 
@@ -29,6 +32,9 @@
 
 ![Skans.jl stars](https://shields.io/github/stars/rikhuijzer/Skans.jl)
     [![Skans.jl](https://img.shields.io/badge/Skans.jl-Julia-blueviolet.svg)](https://github.com/rikhuijzer/Skans.jl)
+
+![EffectSizes.jl stars](https://shields.io/github/stars/harryscholes/EffectSizes.jl)
+    [![EffectSizes.jl](https://img.shields.io/badge/EffectSizes.jl-Julia-blueviolet.svg)](https://github.com/harryscholes/EffectSizes.jl)
 
 
 ### Regular contributor
