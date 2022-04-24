@@ -55,16 +55,16 @@ contributor = [
     Info("JuliaAI/MLJGLMInterface.jl")
 ]
 
-sep = "\n    "
+sep = "\n  "
 
 text = """
     ### Main contributor
 
-        $(join(line.(main_contributor), sep))
+      $(join(line.(main_contributor), sep))
 
     ### Regular contributor
 
-        $(join(line.(contributor), sep))
+      $(join(line.(contributor), sep))
     """
 print(text)
 
