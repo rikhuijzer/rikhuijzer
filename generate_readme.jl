@@ -25,14 +25,14 @@ function line(info::Info)
     stars_badge = "https://shields.io/github/stars/$(info.repo)"
     url = _url(info)
     return """
-        [![$(info.name)]($name_badge)]($url)
-            ![$(info.name) stars]($stars_badge)
+        ![$(info.name) stars]($stars_badge)
+            [![$(info.name)]($name_badge)]($url)
         """
 end
 
 @assert line(test_info) == """
-    [![PlutoStaticHTML.jl](https://img.shields.io/badge/PlutoStaticHTML.jl-Julia-blueviolet.svg)](https://github.com/rikhuijzer/PlutoStaticHTML.jl)
-        ![PlutoStaticHTML.jl stars](https://shields.io/github/stars/rikhuijzer/PlutoStaticHTML.jl)
+    ![PlutoStaticHTML.jl stars](https://shields.io/github/stars/rikhuijzer/PlutoStaticHTML.jl)
+        [![PlutoStaticHTML.jl](https://img.shields.io/badge/PlutoStaticHTML.jl-Julia-blueviolet.svg)](https://github.com/rikhuijzer/PlutoStaticHTML.jl)
     """
 
 main_contributor = [
