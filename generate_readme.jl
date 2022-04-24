@@ -20,7 +20,8 @@ test_info = Info("rikhuijzer/PlutoStaticHTML.jl")
 
 function line(info::Info)
     # Using a badge because text with not align nicely with the stars badge.
-    name_badge = "https://img.shields.io/badge/$(info.name)-$(info.language)-$(info.color).svg"
+    badge_name = info.name == "cache-install" ? "cache install" : info.name
+    name_badge = "https://img.shields.io/badge/$(badge_name)-$(info.language)-$(info.color).svg"
     stars_badge = "https://shields.io/github/stars/$(info.repo)"
     url = _url(info)
     return """
@@ -54,14 +55,16 @@ contributor = [
     Info("JuliaAI/MLJGLMInterface.jl")
 ]
 
+sep = "\n    "
+
 text = """
     ### Main contributor
 
-    $(join(line.(main_contributor), '\n'))
+        $(join(line.(main_contributor), sep))
 
     ### Regular contributor
 
-    $(join(line.(contributor), '\n'))
+        $(join(line.(contributor), sep))
     """
 print(text)
 
