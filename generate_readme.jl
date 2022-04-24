@@ -33,3 +33,40 @@ end
     [![PlutoStaticHTML.jl](https://img.shields.io/badge/PlutoStaticHTML.jl-Julia-blueviolet.svg)](https://github.com/rikhuijzer/PlutoStaticHTML.jl)
         ![PlutoStaticHTML.jl stars](https://shields.io/github/stars/rikhuijzer/PlutoStaticHTML.jl)
     """
+
+main_contributor = [
+    Info("rikhuijzer/PlutoStaticHTML.jl"),
+    Info("rikhuijzer/JuliaTutorialsTemplate"),
+    Info("rikhuijzer/PrecompileSignatures.jl"),
+    Info("JuliaBooks/Books.jl"),
+    Info("JuliaDataScience/JuliaDataScience"),
+    Info(; name="cache-install", repo="rikhuijzer/cache-install", language="Nix", color="blue"),
+    Info("rikhuijzer/PowerAnalyses.jl"),
+    Info("rikhuijzer/Resample.jl"),
+    Info("julia-actions/cache"),
+    Info("rikhuijzer/Skans.jl"),
+]
+
+contributor = [
+    Info("fonsp/Pluto.jl"),
+    Info("TuringLang/Turing.jl"),
+    Info("JuliaAI/MLJBase.jl"),
+    Info("JuliaAI/MLJGLMInterface.jl")
+]
+
+text = """
+    ### Main contributor
+
+    $(join(line.(main_contributor), '\n'))
+
+    ### Regular contributor
+
+    $(join(line.(contributor), '\n'))
+    """
+print(text)
+
+println("Overwriting README.md with the printed text. Are you sure (y/N)?")
+response = readline()
+if response == "y"
+    write("README.md", text)
+end
