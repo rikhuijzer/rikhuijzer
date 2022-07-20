@@ -36,11 +36,12 @@ end
     """
 
 main_contributor = [
-    Info("JuliaBooks/Books.jl"),
+    Info("rikhuijzer/StableTrees.jl"),
     Info("JuliaDataScience/JuliaDataScience"),
+    Info("rikhuijzer/PrecompileSignatures.jl"),
     Info("rikhuijzer/PlutoStaticHTML.jl"),
     Info("rikhuijzer/JuliaTutorialsTemplate"),
-    Info("rikhuijzer/PrecompileSignatures.jl"),
+    Info("JuliaBooks/Books.jl"),
     Info(; name="cache-install", repo="rikhuijzer/cache-install", language="Nix", color="blue"),
     Info("TuringLang/TuringGLM.jl"),
     Info("rikhuijzer/PowerAnalyses.jl"),
