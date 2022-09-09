@@ -45,9 +45,6 @@
 ![Pluto.jl stars](https://shields.io/github/stars/fonsp/Pluto.jl)
     [![Pluto.jl](https://img.shields.io/badge/Pluto.jl-Julia-blueviolet.svg)](https://github.com/fonsp/Pluto.jl)
 
-![Turing.jl stars](https://shields.io/github/stars/TuringLang/Turing.jl)
-    [![Turing.jl](https://img.shields.io/badge/Turing.jl-Julia-blueviolet.svg)](https://github.com/TuringLang/Turing.jl)
-
 ![MLJBase.jl stars](https://shields.io/github/stars/JuliaAI/MLJBase.jl)
     [![MLJBase.jl](https://img.shields.io/badge/MLJBase.jl-Julia-blueviolet.svg)](https://github.com/JuliaAI/MLJBase.jl)
 

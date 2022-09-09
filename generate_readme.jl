@@ -53,7 +53,6 @@ main_contributor = [
 
 contributor = [
     Info("fonsp/Pluto.jl"),
-    Info("TuringLang/Turing.jl"),
     Info("JuliaAI/MLJBase.jl"),
     Info("JuliaAI/MLJGLMInterface.jl")
 ]
