@@ -1,7 +1,7 @@
 ### Main contributor/Maintainer
 
-![StableTrees.jl stars](https://shields.io/github/stars/rikhuijzer/StableTrees.jl)
-    [![StableTrees.jl](https://img.shields.io/badge/StableTrees.jl-Julia-blueviolet.svg)](https://github.com/rikhuijzer/StableTrees.jl)
+![SIRUS.jl stars](https://shields.io/github/stars/rikhuijzer/SIRUS.jl)
+    [![SIRUS.jl](https://img.shields.io/badge/SIRUS.jl-Julia-blueviolet.svg)](https://github.com/rikhuijzer/SIRUS.jl)
 
 ![JuliaDataScience stars](https://shields.io/github/stars/JuliaDataScience/JuliaDataScience)
     [![JuliaDataScience](https://img.shields.io/badge/JuliaDataScience-Julia-blueviolet.svg)](https://github.com/JuliaDataScience/JuliaDataScience)

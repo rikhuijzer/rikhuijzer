@@ -36,7 +36,7 @@ end
     """
 
 main_contributor = [
-    Info("rikhuijzer/StableTrees.jl"),
+    Info("rikhuijzer/SIRUS.jl"),
     Info("JuliaDataScience/JuliaDataScience"),
     Info("rikhuijzer/PrecompileSignatures.jl"),
     Info("rikhuijzer/PlutoStaticHTML.jl"),
