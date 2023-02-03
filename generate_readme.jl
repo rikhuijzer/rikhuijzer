@@ -36,6 +36,7 @@ end
     """
 
 main_contributor = [
+    Info(; name="ata", repo="rikhuijzer/ata", language="Rust", color="important"),
     Info("rikhuijzer/SIRUS.jl"),
     Info("JuliaDataScience/JuliaDataScience"),
     Info("rikhuijzer/PrecompileSignatures.jl"),
@@ -60,7 +61,7 @@ contributor = [
 sep = '\n'
 
 text = """
-    ### Main contributor/Maintainer
+    ### Maintainer
 
     $(join(line.(main_contributor), sep))
 

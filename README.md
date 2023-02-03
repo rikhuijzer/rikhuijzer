@@ -1,4 +1,7 @@
-### Main contributor/Maintainer
+### Maintainer
+
+![ata stars](https://shields.io/github/stars/rikhuijzer/ata)
+    [![ata](https://img.shields.io/badge/ata-Rust-important.svg)](https://github.com/rikhuijzer/ata)
 
 ![SIRUS.jl stars](https://shields.io/github/stars/rikhuijzer/SIRUS.jl)
     [![SIRUS.jl](https://img.shields.io/badge/SIRUS.jl-Julia-blueviolet.svg)](https://github.com/rikhuijzer/SIRUS.jl)
